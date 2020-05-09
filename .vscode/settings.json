@@ -1,3 +1,4 @@
 {
-	"python.pythonPath": "/Users/dhruvil/udacity-nano-project/udacity-ml-microservice/.env/bin/python3"
+	"python.pythonPath": "/Users/dhruvil/udacity-nano-project/udacity-ml-microservice/.env/bin/python3",
+	"python.formatting.provider": "black"
 }
