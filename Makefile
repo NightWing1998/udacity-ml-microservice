@@ -8,12 +8,15 @@
 setup:
 	# Create python virtualenv & source it
 	python3 -m venv .env;
-	(source ./.env/bin/activate)
+	(. ./.env/bin/activate;\
+	which python3;\
+	)
 
 install:
 	# This should be run from inside a virtualenv
 	(\
-		source ./.env/bin/activate;\
+		. ./.env/bin/activate;\
+		which python3;\
 		pip3 install --upgrade pip &&\
 		pip3 install -r requirements.txt\
 	)
@@ -26,7 +29,7 @@ test:
 lint:
 	hadolint Dockerfile
 	(\
-		source ./.env/bin/activate;\
+		. ./.env/bin/activate;\
 		pylint --disable=R,C,W1203 app.py;\
 	)
 
