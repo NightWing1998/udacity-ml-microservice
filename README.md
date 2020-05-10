@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/nightwing1998/udacity-ml-microservice.svg?style=svg&circle-token=139d9f2658ed39258d7e43257aadd6fd1fb5bbbb)](https://app.circleci.com/pipelines/github/NightWing1998/udacity-ml-microservice)
+[ ![CircleCI](https://circleci.com/gh/NightWing1998/udacity-ml-microservice.svg?style=svg&circle-token=139d9f2658ed39258d7e43257aadd6fd1fb5bbbb) ](https://app.circleci.com/pipelines/github/NightWing1998/udacity-ml-microservice)
 
 ## Project Overview
 
