@@ -8,12 +8,7 @@ The aim of the project is to
 * [x] containerize a Machine learning service, written in Python, using docker
 * [x] publishing the image on some remote repository
 * [x] Running the published image on a kubernetes cluster or pods.
-* [x] Integrate CircleCI as a build server to test the code
-
-## Setup the Environment
-
-- Create a virtualenv and activate it
-- Run `make setup && make install` to install the necessary dependencies
+* [x] Integrate CircleCI as a build server to test the code.
 
 ## What are the files and what do they do:
 
@@ -25,6 +20,11 @@ The aim of the project is to
 * run_docker.sh: Compilation of commands which will build a docker image and run a container using that image 
 * upload_docker.sh: Compilation of commands which will build a docker image, tag it and upload it on remote repository
 * run_kubernetes.sh: Compilation of commands which can run the published docker image in kubernetes pods
+
+## Setup the Environment
+
+- Create a virtualenv and activate it
+- Run `make setup && make install` to install the necessary dependencies
 
 ### Running `app.py`
 
