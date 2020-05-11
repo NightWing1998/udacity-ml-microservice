@@ -3,6 +3,9 @@
 
 # Assumes that an image is built via `run_docker.sh`
 
+#Step 0:
+docker build -t udacity-nanoproj-ml-microservice:latest .
+
 # Step 1:
 # Create dockerpath
 dockerpath=dhruvilshah98/udacity-nanoproj-ml-microservice #defaults to docker hub
